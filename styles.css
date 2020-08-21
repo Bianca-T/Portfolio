@@ -1,0 +1,262 @@
+
+body {
+	overflow-x: hidden;
+}
+/* Navigation Bar */
+.sticky-top {
+	position: sticky;
+}
+h2 {
+	font-size: 5rem;
+	text-align: center;
+	color: goldenrod;
+	font-family: "Dancing Script", cursive;
+}
+.logo-img {
+	width: 5%;
+	height: auto;
+	border-radius: 100%;
+	padding-right: 5px;
+}
+#logo {
+	color: goldenrod;
+}
+#color {
+	color: goldenrod;
+}
+
+.header {
+	position: relative;
+	bottom: 5rem;
+}
+
+/* Welcome Section */
+.static-graphic {
+	padding: 20%;
+	width: 100%;
+	background-image: url(images/canyon-cv.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Separator Sections */
+.separator{
+	padding: 5% 5% 0;
+	background-image: url(images/Canyon-cv.png);
+	background-attachment: fixed;
+	/* background-repeat: no-repeat; */
+}
+/* About Section */
+#my-intro {
+	background-color: #eeecda;
+	}
+.about{
+	padding-top: 10%;
+}
+.intro-text-box {
+	width: 500px;
+	height: auto;
+	padding-top: 30px;
+	padding-right: 50px;
+	color: #303960;
+}
+.intro-hello {
+	font-family: "Dancing Script", cursive;
+	font-size: 7rem;
+	padding-left: 5px;
+}
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	line-height: 2 em;
+}
+
+#intro-image {
+	border-radius: 100%;
+	width: 60%;
+	height: auto;
+	filter: drop-shadow(0 0 0.75rem #303960);
+}
+.from-left {
+	transform: translateX(-50%);
+}
+.from-right {
+	transform: translateX(50%);
+}
+.from-left,
+.from-right {
+	transition: opacity 300ms ease-in, transform 500ms ease-in;
+	opacity: 0;
+}
+.from-left.appear,
+.from-right.appear {
+	transform: translateX(0);
+	opacity: 1;
+}
+/* Projects Section */
+#my-projects {
+	background-color: #eeecda;
+	font-family: "Montserrat", sans-serif;
+}
+.content-header{
+	color: #303960;
+	text-align: center;
+	font-size:3rem ;
+	padding-top: 10%;
+}
+.row{
+	box-sizing: border-box;
+	padding: 0 5% 5%;
+}
+/*Project Cards */
+.card{
+	width: 18rem;
+}
+.project-img{
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+
+/* My Skills Section */
+
+#my-skills {
+	background-color: #eeecda;
+}
+
+.skills{
+	margin:0 auto;
+	box-sizing: border-box;
+	width: 80%;
+	align-items: center;
+}
+.skill-icon{
+	box-sizing: border-box;
+	padding: 3%;
+	filter: drop-shadow(0 0 0.75rem #303960);
+}
+.mysql{
+	padding-right: 5%;
+}
+.donut{
+	padding-left: 7%;
+}
+.skill-bubble{
+	display: inline-block;
+	background-color: #303960;
+	border-radius: 100%;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	width: 130px;
+	height: 130px;
+	filter: drop-shadow(0 0 0.75rem #303960);
+}
+.extra-skills{
+	padding-top: 20%;
+}
+.attribute-box{
+	padding: 2% 0;
+}
+.attribution{
+	text-align: center;
+	font-size: 0.5em;
+}
+/* Footer Section */
+#footer {
+	background-color: #ffcb74;
+	text-align: center;
+	font-size: 1rem;
+	font-family: "Dancing", cursive;
+	padding: 10%;
+}
+.footer-text {
+	padding-top: 0px;
+}
+.footer-link {
+	color: goldenrod;
+	font-family: "Montserrat", sans-serif;
+	padding-right: 5px;
+}
+.top{
+	padding-top: 5%;	
+}
+.arrow{
+	align-self: center;
+}
+/* Copyright Section */
+#copyright {
+	padding:0 2% 2%;
+	background-color: #ffcb74;
+	font-size: 0.5rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+.copyright {
+	font-size: 0.3rem;
+	font-family: "Montserrat", sans-serif;
+	margin: 0px;
+}
+@media screen and (max-width: 1050px) {
+	
+	.about{
+		padding-top: 0px;
+	}
+	.row {
+		margin: 0;
+	}
+	.about-img{
+		padding-top:5%;
+	}
+	.list {
+		padding-left: 30px;
+	}
+}
+@media screen and (max-width: 995px) {
+	.navbar {
+		display: none;
+	}
+	.about-img{
+		text-align: center;
+		padding-top: 20px;
+	}
+	#intro-image{
+		width: 40%;
+	}
+	.project-box{
+		text-align: center;
+		padding: 2% 0;
+	}
+	.skills{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 800px) {
+	.header {
+		position: static;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	.intro-text-box {
+		position: relative;
+		text-align: center;
+		left: 7rem;
+	}
+	
+}
+
+@media screen and (max-width: 450px) {
+	
+	.intro-text-box {
+	left: 1rem;
+	}
+	.row {
+		margin: 0;
+	}
+	.container {
+		padding-left: 25px;
+		margin: 0;
+	}
+}
+
