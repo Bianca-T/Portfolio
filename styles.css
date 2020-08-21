@@ -123,10 +123,10 @@ p {
 	background-color: #eeecda;
 }
 
-.skills{
+ .skills{
 	align-items: center;
 	padding-left: 10%;
-}
+ }
 .skill-icon{
 	box-sizing: border-box;
 	padding: 3%;
