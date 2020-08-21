@@ -40,7 +40,7 @@ h2 {
 }
 /* Separator Sections */
 .separator{
-	padding: 5% 5% 0;
+	padding-top: 5%; 
 	background-image: url(images/Canyon-cv.png);
 	background-attachment: fixed;
 	/* background-repeat: no-repeat; */
@@ -125,6 +125,7 @@ p {
 
 .skills{
 	align-items: center;
+	padding-left: 10%;
 }
 .skill-icon{
 	box-sizing: border-box;
@@ -194,7 +195,7 @@ p {
 	font-family: "Montserrat", sans-serif;
 	margin: 0px;
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px ) {
 	
 	.about{
 		padding-top: 0px;
@@ -205,11 +206,12 @@ p {
 	.about-img{
 		padding-top:5%;
 	}
-	.list {
-		padding-left: 30px;
+	.skills{
+		text-align: center;
+		padding: 0;
 	}
 }
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 995px ) {
 	.navbar {
 		display: none;
 	}
@@ -224,11 +226,12 @@ p {
 		text-align: center;
 		padding: 2% 0;
 	}
-	.skills{
+	/* .skills{
 		text-align: center;
-	}
+		
+	} */
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px ) {
 	.header {
 		position: static;
 	}
@@ -243,7 +246,7 @@ p {
 	
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px ) {
 	
 	.intro-text-box {
 	left: 1rem;
